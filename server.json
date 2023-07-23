@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 2500,
       "createdAt": "2023-03-23T13:30:37.054Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "category": "Venda",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2023-07-23T16:31:12.066Z",
+      "id": 4
+    },
+    {
+      "description": "Suporte de pistão à gás",
+      "category": "Setup",
+      "price": 400,
+      "type": "outcome",
+      "createdAt": "2023-07-23T16:31:36.068Z",
+      "id": 5
     }
   ]
 }
