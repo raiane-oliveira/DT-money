@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2023-07-23T16:31:36.068Z",
       "id": 5
+    },
+    {
+      "description": "Lanche no açúde velho",
+      "category": "Alimentação",
+      "price": 14,
+      "type": "outcome",
+      "createdAt": "2023-07-24T11:14:17.268Z",
+      "id": 6
     }
   ]
 }
