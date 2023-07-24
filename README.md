@@ -1,27 +1,59 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  <a href="https://github.com/raiane-oliveira">
+	<div>
+  	<img src="src/assets/ignite-simbol.svg" alt="" />
+	</div>
+    DT Money
+  </a>
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://badgen.net/npm/v/express" />
+  <img src="https://badgen.net/github/contributors/raiane-oliveira/DT-money" />
+</p>
 
-Currently, two official plugins are available:
+<h4 align="center"> 
+	✔️ DT Money - Completed  ✔️
+</h4>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+ <a href="#-about">About</a> •
+ <a href="#-features">Features</a> •
+ <a href="#-tech-stack">Tech Stack</a> • 
+ <a href="#-learnings">Learnings</a>
+</p>
 
-## Expanding the ESLint configuration
+## 💻 About
+Application for adding and tracking transactions, as well as showing total earned and spent.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<img src="src/assets/app-demo-readme.png" alt="Demo application" />
 
-- Configure the top-level `parserOptions` property like this:
+It was developed in Rocketseat's Ignite course.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## 🪸 Features
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [x] Add new transaction modal
+- [x] Show summary of transactions with incomes, outcomes and total value
+- [x] Search transactions
+- [x] Highlighted incomes and outcomes with different colors
+
+## 🛠 Tech Stack
+
+- React
+  - `React Hook Form`
+  - `Zod`
+  - `Radix UI`
+  - `use-context-selector`
+- TypeScript
+- Styled Components
+- ESLint
+- JSON-server 
+- Axios
+
+## 📚 Learnings
+
+- API Calls in React
+- Radix UI
+- Custom inputs form with React hook form
+- Performance with Context, useMemo and useCallback
+- React devTools to test performance
